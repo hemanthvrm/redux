@@ -1,14 +1,11 @@
-import React from 'react'
-import Footer from './Footer'
-import AddTodo from '../containers/AddTodo'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import React from "react";
+import Home from "./Homepage";
+import "antd/dist/antd.css";
 
 const App = () => (
   <div>
-    <AddTodo />
-    <VisibleTodoList />
-    <Footer />
+    <Home />
   </div>
-)
+);
 
-export default App
+export default App;
